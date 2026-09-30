@@ -10,6 +10,10 @@ Research initiated from **Nolan Downard's hypothesis** about learning structural
 
 [Exact targets, significance, theory contribution and filing decisions](research/open-problem-catalogs-2026-09-30/EXPLANATION-AND-PRIORITIES.md) explain the catalog in ordinary language.
 
+## Baselines and the next all-level question
+
+[Exact closure, the 85-declaration baseline and question-driven continuation](research/all-levels-continuation-2026-09-30/README.md) distinguish answered NANUQ conjectures, full Lean certification, practical inference and remaining extensions. Start there when continuing the all-level project, then load its existing live parameter-family packet; the social catalog shortlist does not replace that active task. The package includes a copyable external-chat handoff.
+
 ## Repository roles
 
 | Home | Purpose |

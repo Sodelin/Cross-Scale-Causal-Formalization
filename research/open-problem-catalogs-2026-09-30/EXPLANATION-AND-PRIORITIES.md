@@ -121,3 +121,7 @@ Register the strong statement before proving a tiny fixed case. Necessary interm
 Nolan calls the motivating scope failure **the all levels incident**. Its transferable lesson is to identify the parameter the mechanism actually depends on. If the argument does not use the stated level or size restriction, formulate and test the general statement immediately. If it does, report the obstruction rather than call a smaller case the maximal solution. The old case is an illustration with known answers, not an uncontaminated held-out benchmark.
 
 This task changes explanations and navigation. It does not perform a new proof build, solve the candidate questions, submit to a venue, or demonstrate an autonomous optimal researcher.
+
+## Continuation clarification after Nolan's baseline question
+
+The [closure and baseline assessment](../all-levels-continuation-2026-09-30/CLOSURE-AND-NEXT-STEPS.md) distinguishes the two answered NANUQ conjectures from the remaining parameter-family, formalization and inference work. SOC-03 remains the clearest new social mathematical target to screen; it does not replace the already active NANUQ-PARAMETER-GLOBAL-01 continuation. Within that biological project, attempt the whole candidate global parameter region before a convenient slice. Preserve the 85-declaration corpus as reusable verified components, with the fresh successful CI receipt and exact domain-model limitations recorded in the linked assessment.
