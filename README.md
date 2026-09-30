@@ -8,6 +8,20 @@ Research initiated from **Nolan Downard's hypothesis** about learning structural
 
 [The bio–psycho–social research catalog](research/open-problem-catalogs-2026-09-30/README.md) contains 14 selected source-backed questions/directions across [biology](research/open-problem-catalogs-2026-09-30/BIOLOGICAL.md), [psychology](research/open-problem-catalogs-2026-09-30/PSYCHOLOGICAL.md), and [social research](research/open-problem-catalogs-2026-09-30/SOCIAL.md). It includes prior-corpus recovery, source/status boundaries, proposed targets, a distributed research map, and a separate Research Commons communication review. These are candidate investigations; no new open-problem solution is claimed.
 
+[Exact targets, significance, theory contribution and filing decisions](research/open-problem-catalogs-2026-09-30/EXPLANATION-AND-PRIORITIES.md) explain the catalog in ordinary language.
+
+## Repository roles
+
+| Home | Purpose |
+| --- | --- |
+| [Cross-Scale omnibus](https://github.com/Sodelin/Cross-Scale-Causal-Formalization) | Canonical research questions, theory and cross-project interfaces |
+| [Formalizing Soft Sciences](https://github.com/Sodelin/Formalizing-Soft-Sciences) | Active social, psychological and clinical implementations, source maps and verification |
+| [Mathematics of Psychology](https://github.com/Sodelin/Mathematics-of-Psychology-Formalized) | Preserved early checkpoint; its 16 solidarity declarations are included in Soft Sciences |
+| [Samuel Alexander research](https://github.com/Sodelin/Work-on-Samuel-Alexander-Research-) | Existing evolutionary-network, inheritance and pedigree implementations |
+| [Research Commons](https://github.com/Sodelin/Research-Commons/blob/main/START-HERE.md) | Attributed discussion, captures and handoffs linking authoritative project work |
+
+Biopsychology can have overlapping domain tags. Keep one authoritative question record and link its implementation, evidence and verification rather than duplicate competing status records. Existing proof paths and historical snapshots remain in place.
+
 ## Research notes
 
 - [Partial Views, Changing Systems, and What Their Shadows Can Identify](research/partial-views-and-changing-systems.md): separates incomplete observation, evolving systems/lenses, and semantic alignment; states elementary factorization and dynamic-closure criteria; includes counterexamples, clinical boundaries, sources, and Zotero/Obsidian guidance.

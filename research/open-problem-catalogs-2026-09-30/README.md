@@ -12,6 +12,16 @@ This package contains **14 source-backed questions or research directions: five 
 
 The choices above prioritize reusable leverage and a cheap decisive comparison. They do not authorize a large proof program. BIO-4 is the strongest general cross-scale interface candidate; PSY-3 is a second compact psychological inference probe; SOC-01 offers a biology/social bridge but already has substantial classifier prior art.
 
+## Detailed explanation and assessments
+
+- [Exact targets, significance, theory contribution and filing decisions](EXPLANATION-AND-PRIORITIES.md)
+- [Open-research connection and maximal useful target for research-target generation](RESEARCH-TARGET-GENERATION-SOURCE-MATCH.md)
+- [Contribution of Nolan's theory](THEORY-CONTRIBUTION-ASSESSMENT.md)
+- [Venue scope and prospective significance](SUBMISSION-SIGNIFICANCE-ASSESSMENT.md)
+- [Repository roles and filing assessment](REPOSITORY-STRUCTURE-ASSESSMENT.md)
+
+These assessments distinguish source-posed questions from our narrower proposals and empirical evaluation agendas from mathematical open-problem closure. The motivating scope failure is called **the all levels incident**.
+
 ## What each entry supplies
 
 The domain files record a primary source and exact locator, what it asks, closest known progress, the separate proposed target, missing assumptions, meaningful output, omnibus interface and smallest next discriminator. Companion JSON files preserve stable IDs and search/access records. [INDEX.json](INDEX.json) is a compact cross-catalog index, not a second authority that replaces those records.
