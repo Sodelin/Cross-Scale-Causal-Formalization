@@ -1,0 +1,858 @@
+{
+  "catalog": "Psychological open research directions for the cross-scale omnibus",
+  "version": 1,
+  "checked_on": "2026-09-30",
+  "scope": "Four source-backed unresolved research directions with our separate operational targets. None is admitted as a novel theorem or completed open-problem solution.",
+  "screening_limits": "Bounded catalog construction, not systematic review. PubMed is appropriate for clinical/neuropsychology but not comprehensive general psychology. Do not interpret missing search hits as evidence of novelty. Source agendas may be partially advanced; compare named existing results before any implementation.",
+  "entry_count": 4,
+  "entries": [
+    {
+      "id": "PSY-1",
+      "category": "psychological",
+      "title": "When do measured symptom networks identify a causal intervention target?",
+      "status": "INVESTIGATE_MODEL_AND_PRIOR_ART",
+      "priority": "First low-cost mathematical probe",
+      "author_question_type": "Author-stated methodological research direction, not literal mathematical conjecture",
+      "source": {
+        "authors": "Robinaugh, Hoekstra, Toner and Borsboom",
+        "year": 2020,
+        "title": "The network approach to psychopathology: a review of the literature 2008–2018 and an agenda for future research",
+        "doi": "10.1017/S0033291719003404",
+        "pmid": "31875792",
+        "pmcid": "PMC7334828",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31875792/",
+        "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7334828/",
+        "locator": "Network Psychometrics → Critical Analysis & Future Directions, first and third development priorities; Empirical Studies → Critical Analysis & Future Directions",
+        "access": "complete PMC body retrieved; source agenda primary author statement, review not primary empirical study",
+        "source_question_paraphrase": "Clarify how realistic causal symptom systems produce estimated cross-sectional and within-person networks, and develop measurement strategies designed for those systems."
+      },
+      "current_status": {
+        "checked_on": "2026-09-30",
+        "judgment": "Source direction remains relevant; exact proposed bounded target not proven currently open. Clinical causal/model fidelity and mathematical novelty must be screened.",
+        "closest_records": [
+          {
+            "pmid": "37992776",
+            "doi": "10.1016/j.jad.2023.11.060",
+            "year": 2024,
+            "title": "Evaluating potential effects of distress symptoms’ interventions on suicidality: Analyses of in silico scenarios",
+            "access": "PubMed abstract",
+            "effect": "Provides in-silico intervention methodology; this must be reused/compared rather than rediscovered."
+          },
+          {
+            "pmid": "42804257",
+            "doi": "10.1037/amp0001798",
+            "year": 2026,
+            "title": "Depression symptom network reorganization under internet-based emotion regulation intervention: Evidence from a large real-world cohort",
+            "access": "PubMed abstract",
+            "effect": "Large observational study explicitly precludes causal inference; network change is not proof of causal target validity."
+          }
+        ],
+        "coverage_limit": "Bounded PubMed searches and selected records, not complete network-causal-identification literature. The 36-result recent search screened first5 latest only; future print-dated records were not used as dated closure evidence."
+      },
+      "our_operational_target": "For a source-specified family M of controlled symptom dynamics with an observation channel h and permitted intervention set A, characterize when two models with indistinguishable permitted baseline observations disagree on q = expected symptom burden after a named intervention. Find a least-cost permitted measurement/intervention that separates the q-relevant equivalence classes, or certify nonidentification in M.",
+      "assumptions": [
+        "Explicit observation channel, symptom scale and sampling interval",
+        "Declared latent model class and clinical intervention semantics",
+        "Stochastic kernel/model errors and confounding assumptions stated separately",
+        "Costs of permitted measurements/interventions fixed before optimization"
+      ],
+      "data_needs": [
+        "Source equations or recoverable simulation implementation",
+        "Instrument/item definitions and feasible intervention menu",
+        "Synthetic data suffice for initial identifiability falsification; real longitudinal/intervention data required for empirical assessment"
+      ],
+      "existing_assets": [
+        {
+          "repo": "Sodelin/Formalizing-Soft-Sciences",
+          "path": "SocialScience/Measurement.lean",
+          "source_commit": "4cf7366db359317e974416d81a0fe5d6aa258f6e",
+          "scope": "Elementary additive bias intervals only; no construct validity or fitted item model."
+        },
+        {
+          "repo": "Sodelin/Work-on-Samuel-Alexander-Research-",
+          "path": "research/open-problems/time-self-reference/predictive-memory/PredictiveState.lean",
+          "source_commit": "35570664221956edd153cceaa5351a9f7d63605f",
+          "scope": "Exact behavioral equivalence across action words; reusable established abstraction substrate, not new psychology mechanism identification."
+        },
+        {
+          "repo": "Sodelin/Work-on-Samuel-Alexander-Research-",
+          "path": "research/open-problems/time-self-reference/predictive-memory/StochasticAbstraction.lean",
+          "source_commit": "35570664221956edd153cceaa5351a9f7d63605f",
+          "scope": "Exact joint observation/action law preservation under pushforward conditions; not a fitted clinical model."
+        }
+      ],
+      "prior_art_dependency": "Causal graphical equivalence, hidden-state identification, experiment design, and decision-sufficient representations are prior art. Do not spend a proof budget rebuilding a generic separating-query theorem; first instantiate and compare a clinical source model and existing intervention methodology.",
+      "omnibus_interface": "Produces observation, latent-state, intervention and outcome contracts linking social stressors and biological state variables to psychological endpoints, with explicit identified vs nonidentified claims.",
+      "meaningful_output": "A source-model counterexample to centrality-as-intervention ranking, or an identifiable decision criterion with measurement cost and exact scope. Either can change study design; an unrelated generic quotient is insufficient.",
+      "next_falsification": "Read the 2024 in-silico method equations/code and attempt two source-consistent dynamics with the same baseline measured network but different intervention ranking. Stop if existing theory already fully supplies the proposed result; reuse it and seek the unresolved source-specific limitation.",
+      "proof_admitted": false
+    },
+    {
+      "id": "PSY-2",
+      "category": "psychological",
+      "title": "When does uncertainty-driven information seeking inhibit versus enable exposure and generalization?",
+      "status": "HOLD_CURRENT_STATUS_AND_MODEL_EXTENSION",
+      "priority": "Reuse existing CBT starter, do not immediately extend Lean fragment",
+      "author_question_type": "Explicit model extension/simulation research direction",
+      "source": {
+        "authors": "Smith, Moutoussis and Bilek",
+        "year": 2021,
+        "title": "Simulating the computational mechanisms of cognitive and behavioral psychotherapeutic interventions: insights from active inference",
+        "doi": "10.1038/s41598-021-89047-0",
+        "pmid": "33980875",
+        "pmcid": "PMC8115057",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33980875/",
+        "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8115057/",
+        "locator": "Discussion, paragraph beginning Yet another important topic not addressed is intolerance of uncertainty (previous ledger: XML Sec11 paragraph12)",
+        "access": "complete PMC body retrieved in two offsets",
+        "source_question_paraphrase": "Extend the active-inference model to simulate uncertainty tolerance and partial approach as information seeking, because expected effects on avoidance, exposure and generalization were not simulated."
+      },
+      "current_status": {
+        "checked_on": "2026-09-30",
+        "judgment": "HOLD. Continuing openness of this exact extension remains inconclusive; no closure or novelty claim.",
+        "closest_records": [
+          {
+            "pmid": "40289220",
+            "doi": "10.1038/s44271-025-00251-4",
+            "year": 2025,
+            "title": "Using computational models of learning to advance cognitive behavioral therapy",
+            "access": "complete PMC body retrieved",
+            "effect": "Newer learning/representation framework and testable treatment-response hypotheses; does not establish closure of the exact uncertainty/partial-approach extension."
+          },
+          {
+            "pmid": "38028726",
+            "doi": "10.1093/nc/niad025",
+            "year": 2023,
+            "title": "Modeling and controlling the body in maladaptive ways: an active inference perspective on non-suicidal self-injury behaviors",
+            "access": "PubMed abstract",
+            "effect": "Different uncertainty/body-control target; not a solution of CBT partial approach."
+          }
+        ],
+        "coverage_limit": "Exact PubMed Title/Abstract uncertainty + active-inference query2022–2026 returned1 adjacent record. This excludes neither unindexed work nor papers using different terminology. An earlier untagged title query broadened incorrectly and was discarded."
+      },
+      "our_operational_target": "Within a source-consistent extended active-inference model, define approach, avoid, and partial-approach actions, stochastic observations, inference/learning and context transfer. Characterize parameter regions in which informative partial approach improves learned approach in an untrained context versus information seeking maintaining avoidance. Target a model-specific sharp phase boundary or robust transfer bound only after prior-art screening.",
+      "assumptions": [
+        "Action semantics and information/reward coefficient explicitly specified",
+        "Learning and posterior equations taken from source code or changes individually justified",
+        "Training vs untrained context defined",
+        "Parameter family/budget fixed; source model fidelity separate from clinical validity"
+      ],
+      "data_needs": [
+        "Pinned MATLAB source and model extension specification",
+        "Defined simulation endpoints and generalization contexts",
+        "Clinical fitting and external validation needed for clinical claims; not required for exploratory simulation"
+      ],
+      "existing_assets": [
+        {
+          "repo": "Sodelin/Formalizing-Soft-Sciences",
+          "path": "clinical/ClinicalModels/PublishedCBT.lean",
+          "source_commit": "4cf7366db359317e974416d81a0fe5d6aa258f6e",
+          "scope": "Source-linked deterministic transitions/outcome tables; no policy selection, stochastic inference, exposure learning, or clinical effectiveness proof."
+        },
+        {
+          "repo": "Sodelin/Work-on-Samuel-Alexander-Research-",
+          "path": "research/open-problems/time-self-reference/predictive-memory/StochasticAbstraction.lean",
+          "source_commit": "35570664221956edd153cceaa5351a9f7d63605f",
+          "scope": "Exact joint observation/action law preservation under pushforward conditions; not a fitted clinical model."
+        }
+      ],
+      "prior_art_dependency": "Existing active-inference/POMDP decision theory and information-seeking/exposure models are dependencies, not novel results. Current PublishedCBT deterministic fragment does not encode the mechanisms required by this question.",
+      "omnibus_interface": "Learning and policy module relating observable information, bodily arousal/affect, actions and social-context transfer.",
+      "meaningful_output": "A source-consistent simulation distinguishing two uncertainty regimes plus a consequential verified claim absent from closest work. A generic decision threshold alone fails the contribution gate.",
+      "next_falsification": "Search citing/subsequent source-model implementations for uncertainty tolerance and partial approach; inspect the closest one before implementing. Then compare the missing-mechanism list against the current Lean fragment. If the exact extension already exists, reuse it and target its documented limitation.",
+      "proof_admitted": false
+    },
+    {
+      "id": "PSY-3",
+      "category": "psychological",
+      "title": "Which learning measurements distinguish durable exposure change from rapid change that later relapses?",
+      "status": "INVESTIGATE_MODEL_IDENTIFICATION_AND_VALIDATION",
+      "priority": "Second narrow mathematical/inference probe",
+      "author_question_type": "Author-stated predictive/mechanistic research questions and proposed tests",
+      "source": {
+        "authors": "Berwian, Hitchock, Pisupati, Schoen and Niv",
+        "year": 2025,
+        "title": "Using computational models of learning to advance cognitive behavioral therapy",
+        "doi": "10.1038/s44271-025-00251-4",
+        "pmid": "40289220",
+        "pmcid": "PMC12034757",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40289220/",
+        "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12034757/",
+        "locator": "Refining treatment; Discussion → Testing the predictions, paragraphs1–4 and Figure3",
+        "access": "complete PMC body retrieved in two offsets",
+        "source_question_paraphrase": "Can measured latent-cause learning tendencies predict who relapses after exposure, and can model-derived mechanisms guide interventions preventing relapse? Behavioral improvement alone may arise through different learning mechanisms."
+      },
+      "current_status": {
+        "checked_on": "2026-09-30",
+        "judgment": "Published2025 agenda; existing prototype already fits learning tendencies. Exact mathematical discrimination/measurement target and prospective clinical value are unresolved in this bounded screen, not certified novel.",
+        "closest_records": [
+          {
+            "pmid": "40289220",
+            "doi": "10.1038/s44271-025-00251-4",
+            "year": 2025,
+            "access": "complete source",
+            "effect": "Figure3 and cited ref15 already implement a behavioral learning task and fitted model; do not claim to invent latent-cause fitting or relapse modeling."
+          }
+        ],
+        "coverage_limit": "PubMed2025–2026 Title/Abstract latent-cause + relapse/psychotherapy/exposure search returned0 because the specific term is absent even from the known2025 abstract. That is an index/query coverage gap, not evidence of openness. Citation chain and model comparison remain required."
+      },
+      "our_operational_target": "Take the published task and fitted latent-cause model family as fixed. Define the prediction q = recovery-of-fear distribution under a specified delayed/new-context probe. Determine which model parameter/latent-update alternatives are q-equivalent on the existing task, and the smallest feasible added trial or observation schedule separating q-relevant alternatives with a stated noise tolerance.",
+      "assumptions": [
+        "Fixed model equations, priors, task protocol and outcome definition",
+        "Parameter identifiability distinct from q-identifiability",
+        "Feasible probe set and sampling/measurement noise model declared",
+        "A recovered model parameter is not assumed to measure a clinical construct"
+      ],
+      "data_needs": [
+        "Author task materials and fitted model/code; retrieve ref15 before implementation",
+        "Trial-level behavioral data or openly licensed simulation input",
+        "Prospective treatment/relapse follow-up for empirical clinical predictive utility"
+      ],
+      "existing_assets": [
+        {
+          "repo": "Sodelin/Work-on-Samuel-Alexander-Research-",
+          "path": "research/open-problems/time-self-reference/predictive-memory/PredictiveState.lean",
+          "source_commit": "35570664221956edd153cceaa5351a9f7d63605f",
+          "scope": "Exact behavioral equivalence across action words; reusable established abstraction substrate, not new psychology mechanism identification."
+        },
+        {
+          "repo": "Sodelin/Work-on-Samuel-Alexander-Research-",
+          "path": "research/open-problems/time-self-reference/predictive-memory/StochasticAbstraction.lean",
+          "source_commit": "35570664221956edd153cceaa5351a9f7d63605f",
+          "scope": "Exact joint observation/action law preservation under pushforward conditions; not a fitted clinical model."
+        },
+        {
+          "repo": "Sodelin/Formalizing-Soft-Sciences",
+          "path": "clinical/ClinicalModels/PublishedCBT.lean",
+          "source_commit": "4cf7366db359317e974416d81a0fe5d6aa258f6e",
+          "scope": "Source-linked deterministic transitions/outcome tables; no policy selection, stochastic inference, exposure learning, or clinical effectiveness proof."
+        }
+      ],
+      "prior_art_dependency": "Identifiability, active experimental design, latent-cause models, and exact behavioral quotients are established prior work. A worthwhile new target must improve this published task's discriminative capability or establish a source-specific impossibility/robustness result.",
+      "omnibus_interface": "Exports a q-relevant representation and measurement contract. Bridges psychological learning variables, observable behavior, clinical outcome and context changes without pretending one mechanism is uniquely reconstructed.",
+      "meaningful_output": "A practical additional probe justified by an equivalence/discrimination certificate, or proof that allowed probes cannot support the proposed prediction. Clinical prediction requires prospective testing beyond that theorem.",
+      "next_falsification": "Reproduce the published task-model mapping only far enough to test whether alternative learning mechanisms produce the same recorded trajectories but different delayed predictions. Compare against source ref15 and model-recovery analyses before proving anything.",
+      "proof_admitted": false
+    },
+    {
+      "id": "PSY-4",
+      "category": "psychological",
+      "title": "Do standardized longitudinal metacognitive measures add predictive value beyond cognition and biomarkers?",
+      "status": "EMPIRICAL_COLLABORATION_REQUIRED",
+      "priority": "Important biology–psychology bridge; high data burden",
+      "author_question_type": "Author-stated unmet measurement need and longitudinal clinical research direction",
+      "source": {
+        "authors": "Cappa, Ribaldi, Chicherio and Frisoni",
+        "year": 2024,
+        "title": "Subjective cognitive decline: Memory complaints, cognitive awareness, and metacognition",
+        "doi": "10.1002/alz.13905",
+        "pmid": "39051174",
+        "pmcid": "PMC11497716",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39051174/",
+        "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11497716/",
+        "locator": "Metacognition and awareness sections; ACD: Implications for diagnosis and clinical management of SCD patients, paragraph on no gold-standard objective assessment",
+        "access": "complete PMC body retrieved",
+        "source_question_paraphrase": "Develop objective performance-evaluation measures and test longitudinally whether over/underconfidence or efficiency helps predict progression in subjective cognitive decline, while accounting for informant bias."
+      },
+      "current_status": {
+        "checked_on": "2026-09-30",
+        "judgment": "Current published agenda corroborated by2026 review; clinical incremental prediction unresolved in inspected sources. Do not claim a mathematics-only proof can answer it.",
+        "closest_records": [
+          {
+            "pmid": "42739221",
+            "doi": "10.3390/diagnostics16172791",
+            "year": 2026,
+            "title": "Trajectories of Self-Awareness Across the Alzheimer’s Disease Spectrum: A Systematic Review of Its Potential Contribution to Early Diagnosis",
+            "access": "complete PMC body retrieved in two offsets",
+            "locator": "5. Conclusions;4. Discussion",
+            "effect": "Calls for standardized longitudinal multimodal studies to establish stage-specific trajectories and prognostic utility."
+          },
+          {
+            "pmid": "41428185",
+            "doi": "10.1007/s13760-025-02969-8",
+            "year": 2026,
+            "title": "Metacognitive performance in Functional Cognitive Disorder (FCD): A meta-analysis",
+            "access": "PubMed abstract",
+            "effect": "Very few studies support impaired global but preserved local monitoring. The2019 request to first demonstrate a local deficit is not retained as an open target."
+          }
+        ],
+        "coverage_limit": "Recent PubMed search returned19 records, latest5 screened; fulltext2024 and2026 agenda reviewed. No exhaustive meta-analysis or external validation performed."
+      },
+      "our_operational_target": "Preregister a longitudinal prediction estimand: incremental out-of-sample prediction of decline for a declared SCD population, horizon and baseline cognition/biomarker model after adding separately measured metacognitive bias, sensitivity and efficiency. Formalize assumptions for whether self/informant disagreement and trial-level confidence identify distinct quantities; compare against a null no-added-prediction model.",
+      "assumptions": [
+        "Declared instrument/task versions, confidence scale and scoring",
+        "Separate global appraisal, local performance monitoring, sensitivity, bias and efficiency",
+        "Stage/population, biomarker status and follow-up horizon fixed",
+        "Measurement invariance, missing follow-up, informant error and transport assumptions explicit"
+      ],
+      "data_needs": [
+        "Authorized longitudinal cohort with repeated cognition, confidence, informant reports and biomarkers",
+        "Consented public/controlled-access data with documented limits",
+        "Sufficient held-out follow-up events and external population validation"
+      ],
+      "existing_assets": [
+        {
+          "repo": "Sodelin/Formalizing-Soft-Sciences",
+          "path": "SocialScience/Measurement.lean",
+          "source_commit": "4cf7366db359317e974416d81a0fe5d6aa258f6e",
+          "scope": "Elementary additive bias intervals only; no construct validity or fitted item model."
+        },
+        {
+          "repo": "Sodelin/Work-on-Samuel-Alexander-Research-",
+          "path": "research/open-problems/time-self-reference/predictive-memory/PredictiveState.lean",
+          "source_commit": "35570664221956edd153cceaa5351a9f7d63605f",
+          "scope": "Exact behavioral equivalence across action words; reusable established abstraction substrate, not new psychology mechanism identification."
+        }
+      ],
+      "prior_art_dependency": "Signal detection/meta-d′ measures, longitudinal prediction and model comparison are prior art; use existing instruments rather than inventing a generic Lean measure. Mathematical consistency or toy additive identification does not establish construct validity.",
+      "omnibus_interface": "A measurement-and-prediction bridge connecting neurological biomarkers, psychological awareness, informant/social context and functional outcomes.",
+      "meaningful_output": "A source-linked measurement contract and falsifiable prospective validation protocol, followed by evaluated incremental prediction if data available; no diagnostic recommendation from current formalization.",
+      "next_falsification": "Check whether an eligible open/authorized cohort jointly contains trial-level confidence, biomarkers and longitudinal endpoints. If not, mark dataset blocked and do not spend compute proving generic metacognition lemmas.",
+      "proof_admitted": false
+    }
+  ],
+  "search_log": [
+    {
+      "key": "psy_search_0",
+      "query": "10.1038/s41598-021-89047-0",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 1,
+      "returned_count": 1,
+      "next_offset": null,
+      "search_complete": true,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "33980875",
+          "title": "Simulating the computational mechanisms of cognitive and behavioral psychotherapeutic interventions: insights from active inference.",
+          "doi": "10.1038/s41598-021-89047-0",
+          "publication_date": "2021 May 12",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33980875/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_search_1",
+      "query": "10.1038/s44271-025-00251-4",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 1,
+      "returned_count": 1,
+      "next_offset": null,
+      "search_complete": true,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "40289220",
+          "title": "Using computational models of learning to advance cognitive behavioral therapy.",
+          "doi": "10.1038/s44271-025-00251-4",
+          "publication_date": "2025 Apr 27",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40289220/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_search_2",
+      "query": "\"network approach to psychopathology\" \"agenda\"",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 3,
+      "returned_count": 3,
+      "next_offset": null,
+      "search_complete": true,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "28127906",
+          "title": "A network theory of mental disorders.",
+          "doi": "10.1002/wps.20375",
+          "publication_date": "2017 Feb",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28127906/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "31875792",
+          "title": "The network approach to psychopathology: a review of the literature 2008-2018 and an agenda for future research.",
+          "doi": "10.1017/S0033291719003404",
+          "publication_date": "2020 Feb",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31875792/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "37992776",
+          "title": "Evaluating potential effects of distress symptoms' interventions on suicidality: Analyses of in silico scenarios.",
+          "doi": "10.1016/j.jad.2023.11.060",
+          "publication_date": "2024 Feb 15",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37992776/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_search_3",
+      "query": "\"metacognition\" \"outstanding questions\"",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 1,
+      "returned_count": 1,
+      "next_offset": null,
+      "search_complete": true,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "34534617",
+          "title": "Metacognitive resources for adaptive learning⋆.",
+          "doi": "10.1016/j.neures.2021.09.003",
+          "publication_date": "2022 May",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34534617/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_search_4",
+      "query": "\"psychological measurement\" \"open problems\"",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 0,
+      "returned_count": 0,
+      "next_offset": null,
+      "search_complete": true,
+      "warning": [
+        "No items found."
+      ],
+      "selected_records": [],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_search_5",
+      "query": "\"measurement\" \"construct validity\" \"formal\" \"future\"",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 19,
+      "returned_count": 3,
+      "next_offset": 3,
+      "search_complete": false,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "29757306",
+          "title": "Measurement of alienation among adolescents: construct validity of three scales on powerlessness, meaninglessness and social isolation.",
+          "doi": "10.1186/s41687-018-0040-y",
+          "publication_date": "2017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29757306/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "39794691",
+          "title": "Validation of a Cancer-Focused Information Seeking Experience (ISEE) Scale.",
+          "doi": "10.1080/10810730.2025.2449972",
+          "publication_date": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39794691/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "34091817",
+          "title": "The Italian Questionnaire for Cancer Breakthrough Pain Diagnosis, a Multicenter Validation Study.",
+          "doi": "10.1007/s40122-021-00274-9",
+          "publication_date": "2021 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34091817/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_search_6",
+      "query": "\"personalized\" \"network\" \"psychopathology\" \"2025\"[Date - Publication]",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 25,
+      "returned_count": 3,
+      "next_offset": 3,
+      "search_complete": false,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "40560555",
+          "title": "Polygenic Risk, Psychopathology, and Personalized Functional Brain Network Topography in Adolescence.",
+          "doi": "10.1001/jamapsychiatry.2025.1258",
+          "publication_date": "2025 Sep 01",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40560555/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "39935361",
+          "title": "Integrating plasticity into precision psychiatry.",
+          "doi": "10.1192/j.eurpsy.2025.19",
+          "publication_date": "2025 Feb 12",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39935361/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "39399003",
+          "title": "Polygenic Risk, Psychopathology, and Personalized Functional Brain Network Topography in Adolescence.",
+          "doi": "10.1101/2024.09.20.24314007",
+          "publication_date": "2025 May 27",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39399003/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_search_7",
+      "query": "\"metacognitive ability\" \"cognition\" Fleming",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 7,
+      "returned_count": 3,
+      "next_offset": 3,
+      "search_complete": false,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "22492751",
+          "title": "The neural basis of metacognitive ability.",
+          "doi": "10.1098/rstb.2011.0417",
+          "publication_date": "2012 May 19",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22492751/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "31389291",
+          "title": "Metacognition in functional cognitive disorder- a potential mechanism and treatment target.",
+          "doi": "10.1080/13546805.2019.1651708",
+          "publication_date": "2019 Sep",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31389291/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "23376348",
+          "title": "The development of metacognitive ability in adolescence.",
+          "doi": "10.1016/j.concog.2013.01.004",
+          "publication_date": "2013 Mar",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23376348/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_follow_0",
+      "query": "\"metacognitive ability and cognition\"",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 1669,
+      "returned_count": 2,
+      "next_offset": 2,
+      "search_complete": false,
+      "warning": [
+        "\"metacognitive ability and cognition\""
+      ],
+      "selected_records": [
+        {
+          "pmid": "39051174",
+          "title": "Subjective cognitive decline: Memory complaints, cognitive awareness, and metacognition.",
+          "doi": "10.1002/alz.13905",
+          "publication_date": "2024 Sep",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39051174/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "28179164",
+          "title": "Metacognitive ability correlates with hippocampal and prefrontal microstructure.",
+          "doi": "10.1016/j.neuroimage.2017.02.008",
+          "publication_date": "2017 Apr 01",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28179164/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "Discovery phrase broadened; retained SCD lead only, not exhaustive metacognition retrieval"
+    },
+    {
+      "key": "psy_follow_1",
+      "query": "\"network\" \"psychopathology\" \"interventions\" \"causal\" \"2024/01/01\"[Date - Publication] : \"2026/09/30\"[Date - Publication]",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 12,
+      "returned_count": 5,
+      "next_offset": 5,
+      "search_complete": false,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "42679628",
+          "title": "Changes in emotion regulation are associated with treatment outcomes in web-based eating disorder interventions: analyses of two randomized controlled trials.",
+          "doi": "10.1016/j.brat.2026.105121",
+          "publication_date": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42679628/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42721821",
+          "title": "The associations of adverse childhood experiences and resilience with psychopathology and addictive behaviour in Chinese patients with substance use disorder.",
+          "doi": "10.1016/j.drugalcdep.2026.113340",
+          "publication_date": "2026 Sep 03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42721821/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "41861248",
+          "title": "Glucocorticoid Receptor-Regulated Gene Networks and Mental Health.",
+          "doi": "10.1146/annurev-neuro-102124-031826",
+          "publication_date": "2026 Jul",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41861248/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42211188",
+          "title": "Assessing directional connections between symptoms, cognition, insight, and real-life functioning in schizophrenia: a partial ancestor graphs analysis.",
+          "doi": "10.3389/fpsyt.2026.1782281",
+          "publication_date": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42211188/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "41200815",
+          "title": "Association between specific childhood trauma and symptom dimensions in patients with obsessive-compulsive disorder: dimensional and network perspectives.",
+          "doi": "10.1080/20008066.2025.2580890",
+          "publication_date": "2025 Dec",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41200815/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_status_0",
+      "query": "(\"subjective cognitive decline\" OR \"functional cognitive disorder\") AND (metacognitive efficiency OR metacognition) AND (\"2024/01/01\"[Date - Publication] : \"2026/09/30\"[Date - Publication])",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 19,
+      "returned_count": 5,
+      "next_offset": 5,
+      "search_complete": false,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "42331642",
+          "title": "Brain [18F]FDG-PET in Subjective Cognitive Complaints: From Diagnostic Gap to Neurobiological Insight.",
+          "doi": "10.1016/j.cpet.2026.05.004",
+          "publication_date": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42331642/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "41989436",
+          "title": "Subjective cognitive concerns and global metacognitive bias in prodromal Parkinson's and Parkinson's disease without cognitive impairment.",
+          "doi": "10.1037/neu0001083",
+          "publication_date": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41989436/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42739221",
+          "title": "Trajectories of Self-Awareness Across the Alzheimer's Disease Spectrum: A Systematic Review of Its Potential Contribution to Early Diagnosis.",
+          "doi": "10.3390/diagnostics16172791",
+          "publication_date": "2026 Aug 30",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42739221/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42561181",
+          "title": "I'm the one who used to be 'on the ball': a qualitative study on older adults' experience and interpretation of subjective cognitive decline.",
+          "doi": "10.1080/13607863.2026.2710255",
+          "publication_date": "2026 Aug 06",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42561181/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "41428185",
+          "title": "Metacognitive performance in Functional Cognitive Disorder (FCD): A meta-analysis.",
+          "doi": "10.1007/s13760-025-02969-8",
+          "publication_date": "2026 Apr",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41428185/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_status_1",
+      "query": "\"symptom networks\" AND (\"causal\" OR \"measurement\") AND (\"2024/01/01\"[Date - Publication] : \"2026/09/30\"[Date - Publication])",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 36,
+      "returned_count": 5,
+      "next_offset": 5,
+      "search_complete": false,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "42190887",
+          "title": "Temporal stability of depression symptom networks across cultures: Longitudinal analysis of MIDUS and MIDJA.",
+          "doi": "10.1016/j.jad.2026.122029",
+          "publication_date": "2026 Oct 15",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42190887/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42335496",
+          "title": "Intrinsic links between obsessive-compulsive symptoms and other psychopathological symptoms: A network analysis of clinical and community populations.",
+          "doi": "10.1016/j.jpsychires.2026.06.024",
+          "publication_date": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42335496/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42140855",
+          "title": "Symptom Networks in Postsurgical Cancer Pain Across Recovery Stages.",
+          "doi": "10.1016/j.pmn.2026.04.009",
+          "publication_date": "2026 Oct",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42140855/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42804257",
+          "title": "Depression symptom network reorganization under internet-based emotion regulation intervention: Evidence from a large real-world cohort.",
+          "doi": "10.1037/amp0001798",
+          "publication_date": "2026 Sep 28",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42804257/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42747609",
+          "title": "Network Architecture of Anxiety-Related Distress in 346,677 Chinese Youth: Divergence by Educational Track and Developmental Stage.",
+          "doi": "10.1007/s10802-026-01500-8",
+          "publication_date": "2026 Sep 16",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42747609/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_cbt_status",
+      "query": "\"Simulating the computational mechanisms\" OR ((\"intolerance of uncertainty\" OR \"partial approach\") AND \"active inference\")",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 19225,
+      "returned_count": 4,
+      "next_offset": 4,
+      "search_complete": false,
+      "warning": [
+        "\"Simulating the computational mechanisms\""
+      ],
+      "selected_records": [
+        {
+          "pmid": "42486453",
+          "title": "Methylophiopogonanone A mitigates myocardial ischemia-reperfusion injury: involvement of VEGFR2-associated PI3K/Akt/GSK-3β signaling and suppression of mPTP opening.",
+          "doi": "10.1016/j.jep.2026.122229",
+          "publication_date": "2027 Jan 10",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42486453/",
+          "abstract_truncated": true
+        },
+        {
+          "pmid": "42419399",
+          "title": "Anti-inflammatory effects of water-soluble polysaccharides from Annona squamosa L. pulp in LPS-induced zebrafish embryos: Network pharmacology-guided analysis and experimental validation.",
+          "doi": "10.1016/j.jep.2026.122172",
+          "publication_date": "2027 Jan 10",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42419399/",
+          "abstract_truncated": true
+        },
+        {
+          "pmid": "42419398",
+          "title": "Ethnopharmacological validation of Capparis spinosa L. in gastrointestinal and respiratory disorders: Evidence from in vitro, in vivo, and in silico models.",
+          "doi": "10.1016/j.jep.2026.122175",
+          "publication_date": "2027 Jan 10",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42419398/",
+          "abstract_truncated": false
+        },
+        {
+          "pmid": "42570632",
+          "title": "Biophysical insights into interaction mechanism of cediranib with human serum albumin: In-vitro and in-silico perspectives.",
+          "doi": "10.1016/j.saa.2026.128540",
+          "publication_date": "2027 Jan 05",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42570632/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "DISCARDED: untagged phrase broadened into unrelated computational-mechanism records; not closure evidence"
+    },
+    {
+      "key": "psy_cbt_status_fixed",
+      "query": "(\"intolerance of uncertainty\"[Title/Abstract] OR \"partial approach\"[Title/Abstract]) AND \"active inference\"[Title/Abstract]",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 1,
+      "returned_count": 1,
+      "next_offset": null,
+      "search_complete": true,
+      "warning": [],
+      "selected_records": [
+        {
+          "pmid": "38028726",
+          "title": "Modeling and controlling the body in maladaptive ways: an active inference perspective on non-suicidal self-injury behaviors.",
+          "doi": "10.1093/nc/niad025",
+          "publication_date": "2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38028726/",
+          "abstract_truncated": false
+        }
+      ],
+      "disposition": "bounded discovery/status probe"
+    },
+    {
+      "key": "psy_later_lc",
+      "query": "(\"latent cause\"[Title/Abstract] OR \"latent-cause\"[Title/Abstract]) AND (relapse[Title/Abstract] OR psychotherapy[Title/Abstract] OR exposure[Title/Abstract])",
+      "date": "2026-09-30",
+      "source": "PubMed connector",
+      "total_count": 0,
+      "returned_count": 0,
+      "next_offset": null,
+      "search_complete": true,
+      "warning": [
+        "No items found."
+      ],
+      "selected_records": [],
+      "disposition": "bounded discovery/status probe"
+    }
+  ],
+  "access_manifest": [
+    {
+      "pmcid": "PMC7334828",
+      "doi": "10.1017/S0033291719003404",
+      "access": "complete body",
+      "rights": "PMC permits text mining; source paraphrased rather than republished"
+    },
+    {
+      "pmcid": "PMC8115057",
+      "doi": "10.1038/s41598-021-89047-0",
+      "access": "complete body in offsets0,42000"
+    },
+    {
+      "pmcid": "PMC12034757",
+      "doi": "10.1038/s44271-025-00251-4",
+      "access": "complete body in offsets0,42000",
+      "identity_status": "PMC license notes corrected publication2025; correction content not separately inspected"
+    },
+    {
+      "pmcid": "PMC11497716",
+      "doi": "10.1002/alz.13905",
+      "access": "complete body"
+    },
+    {
+      "pmcid": "PMC13564645",
+      "doi": "10.3390/diagnostics16172791",
+      "access": "complete body in offsets0,45000"
+    }
+  ],
+  "unselected_lane": "Two generic web queries on metacognition produced noisy discovery; no web-only result used as a load-bearing source. Exact queries: Fleming2024 Metacognitive Ability outstanding; metacognition2025 measurement reliability general domain specific open questions."
+}

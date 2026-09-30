@@ -1,0 +1,102 @@
+{
+  "date": "2026-09-30",
+  "kind": "Coordinating source review supplement",
+  "core_scan": "EXISTING-RESEARCH-SCAN.md",
+  "supplementary_public_repository_screen": [
+    {
+      "repository": "Sodelin/ai-math-discovery",
+      "recursive_tree_sha": "08cbb7cd2c3f2fe0625c181d9f22ac835f964ebf",
+      "recursive_entries": 30,
+      "tree_truncated": false,
+      "entrypoint": "README.md",
+      "blob_sha": "1e45a190bf57721a97d4bd037a4637250e95ed25",
+      "source_url": "https://github.com/Sodelin/ai-math-discovery/blob/main/README.md",
+      "disposition": "Method/provenance screen only; no source-model bridge into a domain target admitted"
+    },
+    {
+      "repository": "Sodelin/new-math-discovery",
+      "recursive_tree_sha": "e0312af07d774b300525dbcf4380c317dce5eaac",
+      "recursive_entries": 34,
+      "tree_truncated": false,
+      "entrypoint": "README.md",
+      "blob_sha": "35afaf7a4bc82fec80612cf0ffde34bdaa0ca9ff",
+      "source_url": "https://github.com/Sodelin/new-math-discovery/blob/main/README.md",
+      "disposition": "Method/provenance screen only; no source-model bridge into a domain target admitted"
+    },
+    {
+      "repository": "Sodelin/Collatz-Conjecture-Work",
+      "recursive_tree_sha": "026aa4ad4be6453a005ab950b160a9f2204c5271",
+      "recursive_entries": 420,
+      "tree_truncated": false,
+      "entrypoint": "README.md",
+      "blob_sha": "9384d92fea17f31d2cedc74b95aaa98b47ac78a5",
+      "source_url": "https://github.com/Sodelin/Collatz-Conjecture-Work/blob/main/README.md",
+      "disposition": "Method/provenance screen only; no source-model bridge into a domain target admitted"
+    },
+    {
+      "repository": "Sodelin/oldest-conjecture-",
+      "recursive_tree_sha": "48bcf1429395b980198207bf6a876994fab80789",
+      "recursive_entries": 35,
+      "tree_truncated": false,
+      "entrypoint": "docs/target-shortlist.md",
+      "blob_sha": "c60a8106cdf2f1779a3072e89879a83967141245",
+      "source_url": "https://github.com/Sodelin/oldest-conjecture-/blob/main/docs/target-shortlist.md",
+      "disposition": "Method/provenance screen only; no source-model bridge into a domain target admitted"
+    },
+    {
+      "repository": "Sodelin/Erdos-Work",
+      "recursive_tree_sha": "408f225cc4c24e897008b885b4e6b76873c7990e",
+      "recursive_entries": 30,
+      "tree_truncated": false,
+      "entrypoint": "README.md",
+      "blob_sha": "28f350ba86bb24bf8cccdde7280ee556fa74d883",
+      "source_url": "https://github.com/Sodelin/Erdos-Work/blob/main/README.md",
+      "disposition": "Method/provenance screen only; no source-model bridge into a domain target admitted"
+    }
+  ],
+  "root_primary_checks": [
+    {
+      "source": "Dai and Molloy WABI2026",
+      "url": "https://doi.org/10.4230/LIPIcs.WABI.2026.1",
+      "locator": "Section5 final paragraph, printed1:16",
+      "access": "Official PDF, section5 retrieved; confirms sparse subset/averaging direction and NetCS prior"
+    },
+    {
+      "source": "Robinaugh etal2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31875792/",
+      "pmcid": "PMC7334828",
+      "locator": "Methodological Critical Analysis and Future Directions",
+      "access": "Complete38224character body through PubMed; confirms source-agenda correspondence"
+    },
+    {
+      "source": "Volchenkov2026",
+      "url": "https://www.preprints.org/manuscript/202608.0726",
+      "locator": "Section3.4 concluding question; source also maps to published DOI10.3390/math14183363",
+      "access": "Author preprint; publication-version equivalence not fully audited"
+    },
+    {
+      "source": "Ye, Amin and Ozdaglar2026",
+      "url": "https://arxiv.org/html/2603.18551v2",
+      "locator": "Section8",
+      "access": "Preprint open questions and officialCOLT landing page; finalPDF retrieval unsupported"
+    },
+    {
+      "source": "Planidin etal2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40957570/",
+      "access": "Fresh primary continuation failed; retained immutable source audit remains authority for concluding extension"
+    }
+  ],
+  "scope_limits": [
+    "Selected public research entrypoints plus recursive inventory, not every file/branch/issue",
+    "Private Commons verified in separate side review; no private content exported",
+    "No fresh Lean compilation or simulation",
+    "No exhaustive later-literature novelty certification"
+  ],
+  "concurrent_omnibus_update": {
+    "commit": "05878d0c41fda63753a6c79ee6a941ac40ea36fd",
+    "path": "research/noisy-shadow-open-question-attempt-2026-09-30.md",
+    "blob_sha": "5cd24a4b9062ced98ccaab43bb8c062c569cb7b7",
+    "inspection": "Read full current record; finalCOLT source audit and failed noisy-query attempt integrated; underlying finalPDF not independently reread"
+  },
+  "commons_fresh_public_commit": "8e48183a2634463cb7fe5f2b871b45f9151d7ede"
+}

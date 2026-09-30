@@ -1,0 +1,125 @@
+{
+  "catalog": "biological",
+  "research_date": "2026-09-30",
+  "schema_version": 1,
+  "status_definition": "CONFIRMED SOURCE QUESTION/DIRECTION establishes the external source statement, not continued openness or novelty of our narrowed target.",
+  "proof_admitted": false,
+  "entries": [
+    {
+      "id": "BIO-1",
+      "title": "Sparse quartet access with a statistical bridge",
+      "status": "CONFIRMED SOURCE QUESTION; narrowed target CANDIDATE",
+      "source": {
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.WABI.2026.1",
+        "doi": "10.4230/LIPIcs.WABI.2026.1",
+        "locator": "Section 5 final paragraph, printed page 1:16; theory baseline Section 3 and Corollary 1",
+        "access": "Official main PDF theory and conclusion inspected",
+        "question_type": "author research direction",
+        "question_paraphrase": "Reduce the number of four-taxon subsets sampled in NANUQ+, or replace collections with averages."
+      },
+      "narrowed_target": "Select a smaller anchor-query set preserving required split support in the declared planar galled class, then separately justify finite-sample NMSC-to-oracle classification under explicit separation assumptions.",
+      "prior_art": [
+        "NetCS already provides efficient level-1 blob reconstruction given a tree of blobs; its fast-mode query complexity is O(n log n).",
+        "Frohn et al. 2025, DOI 10.1016/j.jcss.2025.103655, is a quarnet-query baseline requiring exact result comparison."
+      ],
+      "existing_assets": [
+        "Samuel all-level NANUQ package: correct-order exact displayed-quartet oracle support recovery using n(n-3)/2 boundary queries",
+        "Existing anchor-coverage/hitset criterion in EXPLICIT-EXTENSION-TARGETS.md"
+      ],
+      "missing_mechanisms": ["query selection policy", "biological-data oracle bridge", "circular-order inference", "gene-tree error and missingness model"],
+      "next_step": "Compare NetCS with the existing hitset criterion and seek a missing-split counterexample or a strictly smaller selectable coverage construction on enumerated small cases.",
+      "proof_admitted": false
+    },
+    {
+      "id": "BIO-2",
+      "title": "Complete noisy-data level-2 canonical network inference",
+      "status": "CONFIRMED SOURCE QUESTION; narrowed target CANDIDATE",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12549781/",
+        "doi": "10.1007/s11538-025-01549-4",
+        "locator": "Discussion following Theorem 5.5; Proposition 5.4 and Table 1",
+        "access": "Relevant main-text results and Discussion inspected; correction listed but not independently audited",
+        "question_type": "author algorithmic research direction",
+        "question_paraphrase": "Develop, implement, and analyze a statistically consistent inference algorithm for the identifiable canonical form of the specified level-2 class."
+      },
+      "narrowed_target": "Specify canonical reconstruction from classified quartet relationships, prove deterministic robustness conditions, and derive finite-sample failure guarantees under separated NMSC parameters.",
+      "prior_art": [
+        "The source already proves canonical-form identifiability and sketches TINNiK to NANUQ distance to Neighbor-Net to canonical-form extraction.",
+        "NetCS covers level-1 conditional reconstruction; quarnet and trinet algorithms use distinct input semantics."
+      ],
+      "existing_assets": ["All-level circularity/support certificate and exact source-class representation; these do not alone provide a noisy biological estimator"],
+      "missing_mechanisms": ["canonical extraction algorithm", "quartet classifier", "tree-of-blobs estimation", "noise/tie handling", "parameter separation"],
+      "next_step": "Check author follow-up software and 2026 tree-of-blobs work; reproduce a six-taxon canonical example from Table 1 while preserving indistinguishable-network classes.",
+      "proof_admitted": false
+    },
+    {
+      "id": "BIO-3",
+      "title": "Finite population effects on epigenetic reproductive isolation",
+      "status": "CONFIRMED SOURCE DIRECTION through retained audit; HOLD for fresh primary conclusion and stochastic specification",
+      "source": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40957570/",
+        "doi": "10.1098/rspb.2025.1217",
+        "locator": "Section 5 Conclusion; life-cycle supplement pages 3-5; retained source audit at Samuel commit e2502c82ab9a77c00543932f775a71e5374221f7",
+        "access": "Fresh PubMed abstract/metadata and first half of PMC main text inspected; continuation blocked. Exact concluding direction retained in the 2026-09-25 immutable source audit.",
+        "retained_evidence_url": "https://github.com/Sodelin/Work-on-Samuel-Alexander-Research-/blob/e2502c82ab9a77c00543932f775a71e5374221f7/research/feedback-speciation/SOURCE-AUDIT.md",
+        "question_type": "author model-extension direction",
+        "question_paraphrase": "Finite population models may magnify the relative strength of epigenetic barriers to gene flow; this is not a universal monotonicity conjecture."
+      },
+      "narrowed_target": "For an exactly specified finite two-deme life cycle, compare epigenetic and matched genetic neutral-marker transmission at fixed horizon, or separately fixation probability; find parameter conditions or exact small-population counterexamples.",
+      "prior_art": [
+        "Published deterministic diploid two-deme two-locus recurrence and haploid constant-transition spectral solution",
+        "Fogarty and Otto 2024, DOI 10.1073/pnas.2322885121, already studies finite-population gene-culture effects; exact comparison remains required",
+        "Related 2026 methylation/signalling association work DOI 10.1098/rstb.2025.0024 does not settle the finite stochastic comparison from its inspected abstract"
+      ],
+      "existing_assets": ["Retained source audit and source-life-cycle reading", "Affinity-model fixed-point and exponential-fixation results, which concern a different recurrence and are not this open direction"],
+      "missing_mechanisms": ["finite parent/migration sampling", "recombination and epimutation timing", "genetic comparator", "finite RI estimand", "initialization"],
+      "next_step": "Confirm the primary conclusion and define the life cycle before exact rational enumeration of the smallest nontrivial population transition matrix.",
+      "proof_admitted": false
+    },
+    {
+      "id": "BIO-4",
+      "title": "Identifiability and transport of cellular perturbation responses",
+      "status": "CONFIRMED SOURCE QUESTION; narrowed target CANDIDATE",
+      "source": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41727131/",
+        "doi": "10.64898/2026.02.04.703804",
+        "locator": "Theoretical Framework: Connection to Causal Transportability, Definition 3.1 and Proposition 3.2; Context Problem and Why Implicit Context Inference Fails",
+        "access": "PubMed-indexed preprint; named sections inspected within first 28000 of 33728 body characters",
+        "question_type": "author research question and position",
+        "question_paraphrase": "Under which assumptions can source-context interventional information identify a causal perturbation effect in a target cellular context?"
+      },
+      "narrowed_target": "For a finite context-indexed causal model class and fixed response query, characterize compatible response values and the additional context/perturbation measurements needed for identification or a specified interval width.",
+      "prior_art": [
+        "Established causal transportability theory; generic mechanism-shift impossibility is not new",
+        "scPILOT 2026, DOI 10.1002/advs.77461, transfers previously observed perturbations across contexts; its abstract does not justify arbitrary unseen mechanism transfer",
+        "CausCell and scCausalVI provide assumption-dependent representation/perturbation approaches requiring exact estimand comparison"
+      ],
+      "existing_assets": ["Omnibus distinction between available targets C_A(D), compatible models V(D), and response set R_q(D)", "Existing predictive-state and stochastic abstraction interfaces as supporting assets, not cellular empirical models"],
+      "missing_mechanisms": ["stable-versus-varying causal mechanisms", "context coverage", "measurement map", "latent cellular variables", "randomization and selection effects"],
+      "next_step": "Compare one exact finite transport contract with source-cited prior theory and scPILOT partitions; test its information requirement with a tiny observationally equivalent model pair before training.",
+      "proof_admitted": false
+    },
+    {
+      "id": "BIO-5",
+      "title": "Directed cell interactions beyond observational equivalence",
+      "status": "CONFIRMED SOURCE DIRECTION; narrowed target CANDIDATE",
+      "source": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41851134/",
+        "doi": "10.1038/s41467-026-69856-5",
+        "locator": "Discussion third paragraph; Methods: Model, Theoretical foundations, assumptions and Proposition 2",
+        "access": "Discussion and theoretical Methods inspected through 44000 of 47133 body characters; supplemental proof not inspected",
+        "question_type": "author extension direction",
+        "question_paraphrase": "Improve directed cellular causal information by supervised training on spatial transcriptomic perturbation data beyond observationally recoverable structure."
+      },
+      "narrowed_target": "For a finite acyclic two-cell model with known adjacency, characterize which single-gene intervention masks identify one directed response query and whether cell-to-spot aggregation destroys that identification.",
+      "prior_art": [
+        "Celcomen already gives its own parameter identifiability result; Lean transcription alone would not solve an open problem",
+        "Markov equivalence, observational causal limits, and intervention-based orientation are established theory"
+      ],
+      "existing_assets": ["Omnibus observation/response equivalence distinction", "Potential reusable stochastic observation interfaces; no current directed tissue mechanism formalization"],
+      "missing_mechanisms": ["faithfulness and acyclicity", "latent confounding", "intervention precision", "noise covariance", "measurement mixing", "conditioning-versus-intervention justification"],
+      "next_step": "Read supplemental identifiability proof and cited intervention-design results, then screen a missing aggregation/intervention-mask target with a two-cell counterexample.",
+      "proof_admitted": false
+    }
+  ]
+}

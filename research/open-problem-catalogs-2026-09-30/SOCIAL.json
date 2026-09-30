@@ -1,0 +1,103 @@
+{
+  "category": "social",
+  "assessment_date": "2026-09-30",
+  "assessment_kind": "source-backed candidate catalog; no proof or novelty certification",
+  "prior_gate": {
+    "repository": "Sodelin/Formalizing-Soft-Sciences",
+    "commit": "7ed8634785b5568c1856ab4e9a29e4f83489a431",
+    "path": "research/publication-audit-2026-09-29/OPEN-PROBLEM-GATE.md",
+    "finding_preserved": "SP1-SP3 rejected as matches to existing elementary corpus; current-status review incomplete"
+  },
+  "sources": [
+    {"id":"AB2026","title":"Hypergraphs and simplicial complexes in focus: a roadmap for future research in higher-order interactions","authors":"Aida Abiad et al.","date":"2026-04-01","doi":"10.1088/2632-072X/ae3c4e","url":"https://api.repository.cam.ac.uk/server/api/core/bitstreams/7ade7c44-7d22-4a7c-bfc7-29310947cdd7/content","access":"published PDF passage and references read","retrieval_ref":"turn21view2"},
+    {"id":"CI2025","title":"Challenges in Statistics: A Dozen Challenges in Causality and Causal Inference","authors":"Carlos Cinelli, Avi Feller, Guido Imbens, Edward Kennedy, Sara Magliacane, Jose Zubizarreta","date":"2025-08-23","url":"https://arxiv.org/html/2508.17099v1","access":"primary full text, selected sections 3.6 and 3.9 read","retrieval_ref":"turn21view1"},
+    {"id":"VO2026","title":"Mathematical Sociology: Models, Structures, and Open Problems","authors":"Dimitri Volchenkov","publication_date":"2026-09-16","doi":"10.3390/math14183363","url":"https://www.mdpi.com/2227-7390/14/18/3363","accessible_author_version":"https://www.preprints.org/manuscript/202608.0726","access":"publisher indexed metadata checked; direct HTML HTTP429; author preprint sections3.4,3.5,3.7 and cited bibliography read","retrieval_ref":"turn25view0"},
+    {"id":"SH2025","title":"Extended Persistent Homology Distinguishes Simple and Complex Contagions with High Accuracy","authors":"Shamsaddini et al.","url":"https://arxiv.org/html/2505.00958v1","access":"primary abstract, methods, results and discussion read","retrieval_ref":"turn25view1"},
+    {"id":"SM2020","title":"Multiple-bias sensitivity analysis using bounds","authors":"Louisa H. Smith, Maya B. Mathur, Tyler J. VanderWeele","url":"https://arxiv.org/abs/2005.02908","doi":"10.1097/EDE.0000000000001380","access":"primary abstract read; PMC full-text challenge page","retrieval_ref":"turn35view1"},
+    {"id":"AG2026","title":"Expert-Aided Causal Discovery of Ancestral Graphs","authors":"Tiago da Silva et al.","version_date":"2026-03-06","url":"https://arxiv.org/abs/2309.12032v4","access":"latest primary abstract and version history read","retrieval_ref":"turn35view2"}
+  ],
+  "entries": [
+    {
+      "id":"SOC-01","title":"Observation-equivalence boundary for simple versus complex contagion","source":"AB2026","locator":"Section6.1 final paragraph; printed page25; zero-based PDF page24; lines976-979","kind":"explicit empirical/methodological open challenge","posed_question":"Distinguish simple from complex contagion from empirical observations.",
+      "status":"HOLD","current_status_date":"2026-09-30","status_reason":"2026 roadmap poses the challenge but published and preprint classifiers already address important instances; exact narrowed identification boundary has not been certified novel or currently open.",
+      "closest_prior":[{"citation":"Cencetti et al. Phys Rev Lett130,247401(2023)","access":"roadmap reference244 and SH2025 related-work discussion read; original not independently read"},{"citation":"Contreras et al. PLOS Computational Biology20,e1012206(2024)","access":"roadmap reference245 and SH2025 related-work discussion read; original not independently read"},{"source":"SH2025","established_baseline":"Classification and parameter regression from topological summaries of simulated contagion on empirical network structures; includes partial observability experiments."}],
+      "our_target":"For a specified finite known-graph family, seed regime, observation channel and parameter ranges, characterize when independent-edge infection and a reinforced-threshold law produce overlapping observed infection-time distributions; state what additional observation or controlled exposure separates them.",
+      "assumptions":["Both transition-law classes explicitly fixed","Below-threshold infection stated","Missing-time/contact-edge channel specified","Homophily either represented or explicitly excluded","Parameter ranges and seed regime fixed"],
+      "significance":"Clarify which data support mechanism identification and when classification cannot resolve the competing mechanisms.",
+      "interface":"individual adoption -> interaction groups -> partial histories -> mechanism-compatible set -> intervention decision",
+      "existing_corpus_match":"None established; generic connectivity and probe-injectivity statements do not supply the competing laws or discriminator.",
+      "lowest_cost_discriminator":"Compare exact observation laws on two-to-four-node graphs after reading the closest model definitions; seek a nontrivial collision or separation; reject routine existing characterization.",
+      "novelty_requirement":"A defensible class-wide identification or robustness boundary, not another classifier implementation.",
+      "followup_before_execution":"Compare source models and SH2025 limitations; review subsequent work on partial observation, censoring, homophily and exact law identification."
+    },
+    {
+      "id":"SOC-02","title":"Sharp jointly biased direct and spillover-effect regions","source":"CI2025","locator":"Section3.6.3 Other types of biases and Sharpness results; HTML lines522-526","kind":"explicit methodological challenge","posed_question":"Sensitivity to selection, missingness, measurement and interference, potentially jointly.",
+      "status":"HOLD","current_status_date":"2026-09-30","status_reason":"Source poses the general challenge; SM2020 already treats multiple biases. Exact added interference/measurement interaction and current novelty remain unverified.",
+      "closest_prior":[{"source":"SM2020","established_baseline":"Composite risk-ratio bias bounds combining confounding, selection and exposure/outcome misclassification; abstract-level comparison only."},{"citation":"Dorn and Guo(2023), Sjolander(2024)","access":"CI2025 sharpness discussion names these established results; original theorems not independently reviewed"}],
+      "our_target":"Under a fixed network exposure map, characterize a sharp identified region for one specified direct or spillover contrast with jointly exposure-dependent outcome misclassification and sample selection; provide attaining compatible models and a nonroutine analytic or computational improvement over response-type enumeration.",
+      "assumptions":["Binary treatment/outcome model","Treatment assignment and positivity specified","Network exposure map fixed","Cluster dependence specified","Selection and misclassification restrictions explicit","True versus recorded peer exposure distinguished"],
+      "significance":"Avoid unsupported combination of independent corrections and give an exact causal-effect boundary under a defended joint model.",
+      "interface":"true individual/group outcomes -> selection/measurement operators -> observed sample -> causal-effect region",
+      "existing_corpus_match":"None; assumed additive numerical bias intervals do not derive this identified region or sharpness.",
+      "lowest_cost_discriminator":"Map one small cluster's variables and restrictions onto the existing multiple-bias framework before deriving bounds; test whether the proposed target collapses to a known result.",
+      "novelty_requirement":"Uncovered joint interference/bias case with exact gains; generic finite LP formulation or bias warning alone is insufficient.",
+      "followup_before_execution":"Read full SM2020 and network sensitivity papers; compare estimands, dependence assumptions, sharpness and subsequent 2026 results."
+    },
+    {
+      "id":"SOC-03","title":"Structural power and balanced bargaining ranking agreement","source":"VO2026","locator":"Section3.4 final paragraphs; author-preprint HTML lines375-378","kind":"explicit mathematical characterization, counterexample and complexity problem","posed_question":"When do structural power and balanced bargaining payoff rankings agree?",
+      "status":"HOLD","current_status_date":"2026-09-30","status_reason":"Recent author-posed question verified, but exact index version, graph class and closest theorem/subsequent-work comparison remain incomplete.",
+      "closest_prior":[{"citation":"Braun and Gautschi(2006), A Nash Bargaining Model for Simple Exchange Networks","access":"source discussion and reference138 read; original not independently read"},{"citation":"Kleinberg and Tardos(2008), Balanced Outcomes in Social Exchange Networks","access":"source discussion and reference139 read; guessed author PDF inaccessible; original full-theorem comparison outstanding"}],
+      "our_target":"Fix one source-exact index g and characterize a graph class with matching-conditioned, existential or robust ranking agreement; keep quantifiers distinct; find a smallest graph separating agreement notions and certify minimality within a declared bounded class.",
+      "formal_statement_component":"For nonempty balanced-outcome set B(G), robust agreement requires g_i>g_j to imply inf_{x in B(G)}(x_i-x_j)>0.",
+      "assumptions":["Exact structural-index version fixed","Exchange rule, weights and outside options fixed","Balanced-outcome existence required","Union over all maximum-weight matchings distinguished from a fixed matching","No coordinatewise interval substitution for dependent payoff vectors"],
+      "significance":"Determine when structural power predicts bargaining payoff orderings rather than merely correlating with them.",
+      "interface":"exchange graph -> structural index and bargaining mechanism -> payoff-outcome set -> observed ordering",
+      "existing_corpus_match":"None; two_person_budget_iff lacks exchange graphs, structural index, matchings and balanced outcomes.",
+      "lowest_cost_discriminator":"Recover exact index definitions and existing class results; compare one four-node experimental network and one graph with nonunique maximum matching.",
+      "novelty_requirement":"A source-matched agreement class, nontrivial separating counterexample or complexity result, not routine balanced-outcome computation.",
+      "followup_before_execution":"Original index and bargaining papers, source publication-version comparison and subsequent solutions."
+    },
+    {
+      "id":"SOC-04","title":"Ordinal preservation from signed status paths to Bayesian beliefs","source":"VO2026","locator":"Section3.5 after Proposition1 and concluding Bridges paragraphs; author-preprint HTML lines393,411-414","kind":"explicit mathematical reconstruction and rank-equivalence problem","posed_question":"Which status graph models preserve expectation rankings as posterior rankings?",
+      "status":"HOLD","current_status_date":"2026-09-30","status_reason":"Author's exact question verified; chosen graph/prior/evidence restriction and subsequent-work novelty not yet established.",
+      "closest_prior":[{"citation":"Volchenkov Proposition1","access":"primary proposition read; independent-path noisy-OR reading is established baseline within source"},{"citation":"Berger and colleagues expectation-states theory; Fisek et al.(1992); Berger et al.(1992) status-processing comparisons","access":"source exposition and bibliographic references148,151 read; original papers not independently audited"}],
+      "our_target":"For a declared signed graph family with latent path activations, normalized signed outcomes and explicit priors/evidence, characterize when every actor-pair expectation-score difference has the same sign as its posterior-log-odds difference; extend to one nontrivial overlap pattern or certify a minimal rank reversal.",
+      "assumptions":["Path strengths not automatically probabilities","Latent activation semantics fixed","Shared causes and edge-transmission dependence explicit","Positive/negative normalization specified","Priors and evidence held fixed across comparisons"],
+      "significance":"Identify which psychological/social ranking predictions survive probabilistic reformulation and propose distinguishing empirical contrasts.",
+      "interface":"psychological expectations/evidence -> signed interpersonal graph -> probabilistic belief state -> social influence ranking",
+      "existing_corpus_match":"None; currently inspected identity variables do not encode these probabilistic status mechanisms.",
+      "lowest_cost_discriminator":"Compare one shared-edge two-path graph and one edge-disjoint graph under identical defended priors and evidence. Reject free-prior artifacts or a restatement of noisy-OR.",
+      "novelty_requirement":"A nonroutine ranking-preservation characterization or dependency correction linked to the source question.",
+      "followup_before_execution":"Find comparable Bayesian expectation-states reconstructions, exact path-index models and more recent ordinal-equivalence results."
+    },
+    {
+      "id":"SOC-05","title":"Separate organizational recognition from resource congestion","source":"VO2026","locator":"Section3.7 concluding paragraphs; author-preprint HTML lines484-486","kind":"explicit statistical identification and measurement-design challenge","posed_question":"Separate recognition and competition when observed organizational density is endogenous.",
+      "status":"HOLD","current_status_date":"2026-09-30","status_reason":"Question verified; narrow joint-process assumptions and closest latent-event identification results not independently compared.",
+      "closest_prior":[{"citation":"Hannan and Freeman organizational ecology; Carroll and Hannan density-dependent organizational population models; subsequent organizational-form research","access":"source exposition and bibliography read; original models/theorems require independent review"}],
+      "our_target":"In a declared two-process marked birth/death model, derive necessary and sufficient measurement/exclusion restrictions for separately identifying recognition and congestion effects. Compare an observation-equivalent mechanism pair, then add a specified measure or defended variation and characterize the newly identified or sharply partially identified effect.",
+      "assumptions":["Latent process and observation laws fixed","Intensities and risk sets specified","Temporal resolution fixed","Common causes of recognition and congestion addressed","Regulatory changes need defended exclusions rather than assumed instrument status"],
+      "significance":"Explain when equal counts and event histories support different mechanisms, and identify observations that would separate them.",
+      "interface":"individual/organizational decisions -> population events -> latent recognition/resources -> public counts -> intervention estimand",
+      "existing_corpus_match":"None; solidarity and budget inequalities specify neither these latent processes nor their joint event law.",
+      "lowest_cost_discriminator":"First compare to standard latent-state/process identification results; construct one small collision only to scope the missing measurement requirement, not as automatic discovery.",
+      "novelty_requirement":"A source-relevant minimal observation design or sharp process-specific identified region beyond standard latent-state results.",
+      "followup_before_execution":"Compare organizational-form empirical measurement models, marked-process identification and subsequent work; define one exact target with defended assumptions."
+    }
+  ],
+  "cross_scale_prior_art_warning": {
+    "source":"CI2025","locator":"Section3.9.3 Knowledge elicitation","lead":"Source treats eliciting relevant domain knowledge as a search problem.","closest_prior":"AG2026 already handles uncertain ex-ante and ex-post expert feedback under latent confounding.","decision":"Compare before claiming Nolan's representation intervention is a new elicitation method; no sixth task added."
+  },
+  "search_log": [
+    {"engine":"system2","query":"\"Hypergraphs and simplicial complexes\" \"roadmap\" Abiad 2026","outcome":"primary publisher and institutional PDF found"},
+    {"engine":"system2","query":"\"Challenges in Statistics\" \"A Dozen Challenges\" causal inference","outcome":"primary arXiv source found"},
+    {"engine":"system2","query":"\"Mathematical Sociology\" \"Models, Structures, and Open Problems\" Volchenkov","outcome":"primary publisher and author preprint found"},
+    {"engine":"system1","query":"site:mdpi.com/2227-7390/14/18/3363 \"open problem\" \"trust\"","outcome":"irrelevant returns; no inference drawn"},
+    {"engine":"system1","query":"site:mdpi.com/2227-7390/14/18/3363 \"minimal counterexamples\"","outcome":"irrelevant returns; no inference drawn"},
+    {"engine":"system1","query":"\"Distinguishing between simple and complex contagion\" empirical data","outcome":"EPH primary preprint found; roadmap question independently verified"},
+    {"engine":"system1","query":"\"sensitivity analysis\" \"measurement error\" \"interference\" \"2026\"","outcome":"mostly irrelevant returns; no inference drawn"},
+    {"engine":"system2","query":"\"balanced bargaining\" \"power rankings\" Volchenkov","outcome":"no decisive closest-work result; accessible author preprint used"},
+    {"engine":"system2","query":"\"sensitivity analysis\" \"selection\" \"measurement error\" interference sharp bounds","outcome":"existing multiple-bias bounds found; prevents first-combination claim"},
+    {"engine":"system2","query":"\"causal identification\" \"knowledge elicitation\" automated assumptions 2026","outcome":"author institute site linked AGFN; latest arXiv version checked"}
+  ],
+  "limitations": ["Ten-query bounded assessment, not exhaustive priority certification","Publication/source freshness does not certify narrow target novelty","Direct publisher full text blocked for VO2026; accessible author version used","Several closest papers seen only through source discussion/bibliography","All five entries HOLD before substantive proof/implementation","No theorem, Lean build, empirical validation, researcher outreach or submission performed"]
+}

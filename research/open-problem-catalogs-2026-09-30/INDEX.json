@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "assessed_on": "2026-09-30",
+  "scope": "Source-backed research questions/directions plus separately proposed targets; no certified novel theorem target or solved open problem",
+  "category_counts": {
+    "biological": 5,
+    "psychological": 4,
+    "social": 5
+  },
+  "priority_comparisons": [
+    "BIO-1",
+    "PSY-1",
+    "SOC-03"
+  ],
+  "entries": [
+    {
+      "id": "BIO-1",
+      "category": "biological",
+      "title": "Sparse quartet access with a statistical bridge",
+      "catalog": "BIOLOGICAL.md",
+      "record": "BIOLOGICAL.json",
+      "status": "CONFIRMED SOURCE QUESTION; narrowed target CANDIDATE",
+      "proof_admitted": false,
+      "next_step": "Compare NetCS with the existing hitset criterion and seek a missing-split counterexample or a strictly smaller selectable coverage construction on enumerated small cases.",
+      "source_record": {
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.WABI.2026.1",
+        "doi": "10.4230/LIPIcs.WABI.2026.1",
+        "locator": "Section 5 final paragraph, printed page 1:16; theory baseline Section 3 and Corollary 1",
+        "access": "Official main PDF theory and conclusion inspected",
+        "question_type": "author research direction",
+        "question_paraphrase": "Reduce the number of four-taxon subsets sampled in NANUQ+, or replace collections with averages."
+      }
+    },
+    {
+      "id": "BIO-2",
+      "category": "biological",
+      "title": "Complete noisy-data level-2 canonical network inference",
+      "catalog": "BIOLOGICAL.md",
+      "record": "BIOLOGICAL.json",
+      "status": "CONFIRMED SOURCE QUESTION; narrowed target CANDIDATE",
+      "proof_admitted": false,
+      "next_step": "Check author follow-up software and 2026 tree-of-blobs work; reproduce a six-taxon canonical example from Table 1 while preserving indistinguishable-network classes.",
+      "source_record": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12549781/",
+        "doi": "10.1007/s11538-025-01549-4",
+        "locator": "Discussion following Theorem 5.5; Proposition 5.4 and Table 1",
+        "access": "Relevant main-text results and Discussion inspected; correction listed but not independently audited",
+        "question_type": "author algorithmic research direction",
+        "question_paraphrase": "Develop, implement, and analyze a statistically consistent inference algorithm for the identifiable canonical form of the specified level-2 class."
+      }
+    },
+    {
+      "id": "BIO-3",
+      "category": "biological",
+      "title": "Finite population effects on epigenetic reproductive isolation",
+      "catalog": "BIOLOGICAL.md",
+      "record": "BIOLOGICAL.json",
+      "status": "CONFIRMED SOURCE DIRECTION through retained audit; HOLD for fresh primary conclusion and stochastic specification",
+      "proof_admitted": false,
+      "next_step": "Confirm the primary conclusion and define the life cycle before exact rational enumeration of the smallest nontrivial population transition matrix.",
+      "source_record": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40957570/",
+        "doi": "10.1098/rspb.2025.1217",
+        "locator": "Section 5 Conclusion; life-cycle supplement pages 3-5; retained source audit at Samuel commit e2502c82ab9a77c00543932f775a71e5374221f7",
+        "access": "Fresh PubMed abstract/metadata and first half of PMC main text inspected; continuation blocked. Exact concluding direction retained in the 2026-09-25 immutable source audit.",
+        "retained_evidence_url": "https://github.com/Sodelin/Work-on-Samuel-Alexander-Research-/blob/e2502c82ab9a77c00543932f775a71e5374221f7/research/feedback-speciation/SOURCE-AUDIT.md",
+        "question_type": "author model-extension direction",
+        "question_paraphrase": "Finite population models may magnify the relative strength of epigenetic barriers to gene flow; this is not a universal monotonicity conjecture."
+      }
+    },
+    {
+      "id": "BIO-4",
+      "category": "biological",
+      "title": "Identifiability and transport of cellular perturbation responses",
+      "catalog": "BIOLOGICAL.md",
+      "record": "BIOLOGICAL.json",
+      "status": "CONFIRMED SOURCE QUESTION; narrowed target CANDIDATE",
+      "proof_admitted": false,
+      "next_step": "Compare one exact finite transport contract with source-cited prior theory and scPILOT partitions; test its information requirement with a tiny observationally equivalent model pair before training.",
+      "source_record": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41727131/",
+        "doi": "10.64898/2026.02.04.703804",
+        "locator": "Theoretical Framework: Connection to Causal Transportability, Definition 3.1 and Proposition 3.2; Context Problem and Why Implicit Context Inference Fails",
+        "access": "PubMed-indexed preprint; named sections inspected within first 28000 of 33728 body characters",
+        "question_type": "author research question and position",
+        "question_paraphrase": "Under which assumptions can source-context interventional information identify a causal perturbation effect in a target cellular context?"
+      }
+    },
+    {
+      "id": "BIO-5",
+      "category": "biological",
+      "title": "Directed cell interactions beyond observational equivalence",
+      "catalog": "BIOLOGICAL.md",
+      "record": "BIOLOGICAL.json",
+      "status": "CONFIRMED SOURCE DIRECTION; narrowed target CANDIDATE",
+      "proof_admitted": false,
+      "next_step": "Read supplemental identifiability proof and cited intervention-design results, then screen a missing aggregation/intervention-mask target with a two-cell counterexample.",
+      "source_record": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41851134/",
+        "doi": "10.1038/s41467-026-69856-5",
+        "locator": "Discussion third paragraph; Methods: Model, Theoretical foundations, assumptions and Proposition 2",
+        "access": "Discussion and theoretical Methods inspected through 44000 of 47133 body characters; supplemental proof not inspected",
+        "question_type": "author extension direction",
+        "question_paraphrase": "Improve directed cellular causal information by supervised training on spatial transcriptomic perturbation data beyond observationally recoverable structure."
+      }
+    },
+    {
+      "id": "PSY-1",
+      "category": "psychological",
+      "title": "When do measured symptom networks identify a causal intervention target?",
+      "catalog": "PSYCHOLOGICAL.md",
+      "record": "PSYCHOLOGICAL.json",
+      "status": "INVESTIGATE_MODEL_AND_PRIOR_ART",
+      "proof_admitted": false,
+      "next_step": "Read the 2024 in-silico method equations/code and attempt two source-consistent dynamics with the same baseline measured network but different intervention ranking. Stop if existing theory already fully supplies the proposed result; reuse it and seek the unresolved source-specific limitation.",
+      "source_record": {
+        "authors": "Robinaugh, Hoekstra, Toner and Borsboom",
+        "year": 2020,
+        "title": "The network approach to psychopathology: a review of the literature 2008–2018 and an agenda for future research",
+        "doi": "10.1017/S0033291719003404",
+        "pmid": "31875792",
+        "pmcid": "PMC7334828",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31875792/",
+        "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7334828/",
+        "locator": "Network Psychometrics → Critical Analysis & Future Directions, first and third development priorities; Empirical Studies → Critical Analysis & Future Directions",
+        "access": "complete PMC body retrieved; source agenda primary author statement, review not primary empirical study",
+        "source_question_paraphrase": "Clarify how realistic causal symptom systems produce estimated cross-sectional and within-person networks, and develop measurement strategies designed for those systems."
+      }
+    },
+    {
+      "id": "PSY-2",
+      "category": "psychological",
+      "title": "When does uncertainty-driven information seeking inhibit versus enable exposure and generalization?",
+      "catalog": "PSYCHOLOGICAL.md",
+      "record": "PSYCHOLOGICAL.json",
+      "status": "HOLD_CURRENT_STATUS_AND_MODEL_EXTENSION",
+      "proof_admitted": false,
+      "next_step": "Search citing/subsequent source-model implementations for uncertainty tolerance and partial approach; inspect the closest one before implementing. Then compare the missing-mechanism list against the current Lean fragment. If the exact extension already exists, reuse it and target its documented limitation.",
+      "source_record": {
+        "authors": "Smith, Moutoussis and Bilek",
+        "year": 2021,
+        "title": "Simulating the computational mechanisms of cognitive and behavioral psychotherapeutic interventions: insights from active inference",
+        "doi": "10.1038/s41598-021-89047-0",
+        "pmid": "33980875",
+        "pmcid": "PMC8115057",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33980875/",
+        "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8115057/",
+        "locator": "Discussion, paragraph beginning Yet another important topic not addressed is intolerance of uncertainty (previous ledger: XML Sec11 paragraph12)",
+        "access": "complete PMC body retrieved in two offsets",
+        "source_question_paraphrase": "Extend the active-inference model to simulate uncertainty tolerance and partial approach as information seeking, because expected effects on avoidance, exposure and generalization were not simulated."
+      }
+    },
+    {
+      "id": "PSY-3",
+      "category": "psychological",
+      "title": "Which learning measurements distinguish durable exposure change from rapid change that later relapses?",
+      "catalog": "PSYCHOLOGICAL.md",
+      "record": "PSYCHOLOGICAL.json",
+      "status": "INVESTIGATE_MODEL_IDENTIFICATION_AND_VALIDATION",
+      "proof_admitted": false,
+      "next_step": "Reproduce the published task-model mapping only far enough to test whether alternative learning mechanisms produce the same recorded trajectories but different delayed predictions. Compare against source ref15 and model-recovery analyses before proving anything.",
+      "source_record": {
+        "authors": "Berwian, Hitchock, Pisupati, Schoen and Niv",
+        "year": 2025,
+        "title": "Using computational models of learning to advance cognitive behavioral therapy",
+        "doi": "10.1038/s44271-025-00251-4",
+        "pmid": "40289220",
+        "pmcid": "PMC12034757",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40289220/",
+        "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12034757/",
+        "locator": "Refining treatment; Discussion → Testing the predictions, paragraphs1–4 and Figure3",
+        "access": "complete PMC body retrieved in two offsets",
+        "source_question_paraphrase": "Can measured latent-cause learning tendencies predict who relapses after exposure, and can model-derived mechanisms guide interventions preventing relapse? Behavioral improvement alone may arise through different learning mechanisms."
+      }
+    },
+    {
+      "id": "PSY-4",
+      "category": "psychological",
+      "title": "Do standardized longitudinal metacognitive measures add predictive value beyond cognition and biomarkers?",
+      "catalog": "PSYCHOLOGICAL.md",
+      "record": "PSYCHOLOGICAL.json",
+      "status": "EMPIRICAL_COLLABORATION_REQUIRED",
+      "proof_admitted": false,
+      "next_step": "Check whether an eligible open/authorized cohort jointly contains trial-level confidence, biomarkers and longitudinal endpoints. If not, mark dataset blocked and do not spend compute proving generic metacognition lemmas.",
+      "source_record": {
+        "authors": "Cappa, Ribaldi, Chicherio and Frisoni",
+        "year": 2024,
+        "title": "Subjective cognitive decline: Memory complaints, cognitive awareness, and metacognition",
+        "doi": "10.1002/alz.13905",
+        "pmid": "39051174",
+        "pmcid": "PMC11497716",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39051174/",
+        "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11497716/",
+        "locator": "Metacognition and awareness sections; ACD: Implications for diagnosis and clinical management of SCD patients, paragraph on no gold-standard objective assessment",
+        "access": "complete PMC body retrieved",
+        "source_question_paraphrase": "Develop objective performance-evaluation measures and test longitudinally whether over/underconfidence or efficiency helps predict progression in subjective cognitive decline, while accounting for informant bias."
+      }
+    },
+    {
+      "id": "SOC-01",
+      "category": "social",
+      "title": "Observation-equivalence boundary for simple versus complex contagion",
+      "catalog": "SOCIAL.md",
+      "record": "SOCIAL.json",
+      "status": "HOLD",
+      "proof_admitted": false,
+      "next_step": "Compare exact observation laws on two-to-four-node graphs after reading the closest model definitions; seek a nontrivial collision or separation; reject routine existing characterization.",
+      "source_record": "AB2026"
+    },
+    {
+      "id": "SOC-02",
+      "category": "social",
+      "title": "Sharp jointly biased direct and spillover-effect regions",
+      "catalog": "SOCIAL.md",
+      "record": "SOCIAL.json",
+      "status": "HOLD",
+      "proof_admitted": false,
+      "next_step": "Map one small cluster's variables and restrictions onto the existing multiple-bias framework before deriving bounds; test whether the proposed target collapses to a known result.",
+      "source_record": "CI2025"
+    },
+    {
+      "id": "SOC-03",
+      "category": "social",
+      "title": "Structural power and balanced bargaining ranking agreement",
+      "catalog": "SOCIAL.md",
+      "record": "SOCIAL.json",
+      "status": "HOLD",
+      "proof_admitted": false,
+      "next_step": "Recover exact index definitions and existing class results; compare one four-node experimental network and one graph with nonunique maximum matching.",
+      "source_record": "VO2026"
+    },
+    {
+      "id": "SOC-04",
+      "category": "social",
+      "title": "Ordinal preservation from signed status paths to Bayesian beliefs",
+      "catalog": "SOCIAL.md",
+      "record": "SOCIAL.json",
+      "status": "HOLD",
+      "proof_admitted": false,
+      "next_step": "Compare one shared-edge two-path graph and one edge-disjoint graph under identical defended priors and evidence. Reject free-prior artifacts or a restatement of noisy-OR.",
+      "source_record": "VO2026"
+    },
+    {
+      "id": "SOC-05",
+      "category": "social",
+      "title": "Separate organizational recognition from resource congestion",
+      "catalog": "SOCIAL.md",
+      "record": "SOCIAL.json",
+      "status": "HOLD",
+      "proof_admitted": false,
+      "next_step": "First compare to standard latent-state/process identification results; construct one small collision only to scope the missing measurement requirement, not as automatic discovery.",
+      "source_record": "VO2026"
+    }
+  ]
+}
