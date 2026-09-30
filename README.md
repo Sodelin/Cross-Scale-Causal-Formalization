@@ -17,3 +17,7 @@ Nolan supplied the motivating hypothesis. The assistant supplied a proposed math
 ## Research discipline
 
 State the inference target, maps, contexts, and assumptions. Distinguish observable similarity from causal equivalence. Preserve counterexamples and unresolved questions. Keep private clinical details and unsupported diagnostic inferences out of the repository.
+
+## Consolidated theory work from the research-workflow chat
+
+[Theory analysis, NANUQ dossier, workflow, retrospective, answer record and observability extension](research/nolan-scope-theory-2026-09-30/README.md) are now collected here for other agents. The new extension distinguishes reachable questions from compatible models and response uncertainty, and gives explicit reconstruction conditions and counterexamples. Imported source commits and blobs are recorded in the package manifest. These contributions complement the existing partial-views note; mathematical and empirical status limits remain explicit.

@@ -1,0 +1,47 @@
+{
+  "recorded_at_utc": "2026-09-30",
+  "purpose": "Consolidation of this chat's theory work; imported reports remain historical snapshots",
+  "imports": [
+    {
+      "destination": "research/nolan-scope-theory-2026-09-30/snapshots/theory-analysis.md",
+      "source_repository": "Sodelin/Formalizing-Soft-Sciences",
+      "source_path": "research/new-wave-2026-09-30/NOLAN-THEORY-ANALYSIS.md",
+      "source_commit": "7ed8634785b5568c1856ab4e9a29e4f83489a431",
+      "source_blob_sha": "9373865934fef0c6a054249ab578b573b5dc85dc",
+      "relative_markdown_links_rewritten": false
+    },
+    {
+      "destination": "research/nolan-scope-theory-2026-09-30/snapshots/workflow-revision-2.md",
+      "source_repository": "Sodelin/Formalizing-Soft-Sciences",
+      "source_path": "NEW-WAVE.md",
+      "source_commit": "7ed8634785b5568c1856ab4e9a29e4f83489a431",
+      "source_blob_sha": "69b41511d7ca5d8c821807296e9e4491a25178ca",
+      "relative_markdown_links_rewritten": true
+    },
+    {
+      "destination": "research/nolan-scope-theory-2026-09-30/snapshots/task-contract.template.json",
+      "source_repository": "Sodelin/Formalizing-Soft-Sciences",
+      "source_path": "research/new-wave-2026-09-30/task-contract.template.json",
+      "source_commit": "7ed8634785b5568c1856ab4e9a29e4f83489a431",
+      "source_blob_sha": "cff1aaf025f1e9616b46d432077acec45b1cab51",
+      "relative_markdown_links_rewritten": false
+    },
+    {
+      "destination": "research/nolan-scope-theory-2026-09-30/snapshots/research-modeling-retrospective.md",
+      "source_repository": "Sodelin/Formalizing-Soft-Sciences",
+      "source_path": "research/new-wave-2026-09-30/RETROSPECTIVE.md",
+      "source_commit": "7ed8634785b5568c1856ab4e9a29e4f83489a431",
+      "source_blob_sha": "b50228cb43c5e85455886c05fb4c830fa1cb7a7d",
+      "relative_markdown_links_rewritten": false
+    },
+    {
+      "destination": "research/nolan-scope-theory-2026-09-30/snapshots/nanuq-experiment-dossier.md",
+      "source_repository": "Sodelin/Work-on-Samuel-Alexander-Research-",
+      "source_path": "research/new-wave/NANUQ-EXPERIMENT-DOSSIER.md",
+      "source_commit": "e2502c82ab9a77c00543932f775a71e5374221f7",
+      "source_blob_sha": "067e20e139a3752498b8d96e8f67332603fe0b7b",
+      "relative_markdown_links_rewritten": true
+    }
+  ],
+  "link_note": "Relative Markdown links in imported reports point to their source commit. Existing absolute main links remain live. The JSON template's protocol field retains its original source path; this snapshot is not an installed controller."
+}
